@@ -27,6 +27,8 @@ ToA = [ 0, 3, 6 ];
 % ToA = [ 0, 5, 10, 15, 25, 30, 40, 45, 55, 70, 80 ];
 
 [ pos_ref, vel_ref, t_ref ] = trajplann3(wpt,ToA);
+psi_ref = zeros(200,1);
+psidot_ref = zeros(200,1);
 figure
 plot(t_ref,pos_ref(:,1), t_ref,pos_ref(:,2), t_ref,pos_ref(:,3));
 grid on

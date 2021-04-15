@@ -3,12 +3,12 @@
 %% Data from SolidWorks model 
 
 % global m g Kt Kq l <-- SOLVE GLOBAL VARIABLE ISSUE!!
-m_ref = 1.5; % used in the sliding mode
-m = 1.5;%+0.3; % actual mass used in the math model
+m_ref = 0.5; % used in the sliding mode
+m = 0.5;%+0.3; % actual mass used in the math model
 g = 9.81;
 Kt = 1.4092e-5;
 Kq = 3.9462e-07;
-l = 0.20;
+l = 0.1;
 % Inertia moment
 Jx_ref = 0.0170;
 Jx = Jx_ref; % actual Jx used in the math model
