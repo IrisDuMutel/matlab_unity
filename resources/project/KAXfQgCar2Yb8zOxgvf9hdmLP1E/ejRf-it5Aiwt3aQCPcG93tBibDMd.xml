@@ -1,0 +1,4 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Info Type="StartUp" Visible="0" Icon="" File="utilities/trajPlann_init.m" Name="trajPlann_init">
+    <Extension Value="52f18d77-bb2e-42e7-9a05-c2ff0d610a28" Name="StartUpPrev" />
+</Info>
