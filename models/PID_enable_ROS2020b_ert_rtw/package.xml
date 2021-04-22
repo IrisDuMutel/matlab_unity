@@ -1,0 +1,21 @@
+<package>
+  <name>pid_enable_ros2020b</name>
+  <version>1.0.0</version>
+  <description>
+  This package is generated from PID_enable_ROS2020b Simulink model.
+  </description>
+  <maintainer email="rosuser@test.com">ROS Example User</maintainer>
+  <license>BSD</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <build_depend>nav_msgs</build_depend>
+  <build_depend>robotics_demo</build_depend>
+  <build_depend>roscpp</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <run_depend>nav_msgs</run_depend>
+  <run_depend>robotics_demo</run_depend>
+  <run_depend>roscpp</run_depend>
+  <run_depend>std_msgs</run_depend>
+</package>
